@@ -1,0 +1,31 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.usd {
+  font-size: 14px;
+  color: gray;
+}
+
+.price-today {
+  font-size: 14px;
+  color: green;
+  margin-bottom: 5px;
+}
+
+.price-later {
+  font-size: 14px;
+  color: gray;
+}
+
+.price-low {
+  color: red;
+}
