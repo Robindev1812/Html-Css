@@ -1,0 +1,9 @@
+img {
+  /* width: 200px; */
+  vertical-align: top;
+}
+
+.rounded-cat {
+  width: 200px;
+  border-radius: 12px;
+}
