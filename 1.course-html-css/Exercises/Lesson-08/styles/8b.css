@@ -1,0 +1,15 @@
+p,
+button {
+  font-size: 16px;
+  font-family: Arial;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 20px;
+}
+
+.text {
+  width: 210px;
+  display: inline-block;
+  margin-right: 10px;
+}

@@ -1,0 +1,12 @@
+img {
+  display: block;
+  width: 200px;
+  margin: 0 0 5px 133px;
+}
+
+input {
+  font-size: 15px;
+  padding: 8px 16px;
+  width: 466px;
+  border-radius: 18px;
+}
