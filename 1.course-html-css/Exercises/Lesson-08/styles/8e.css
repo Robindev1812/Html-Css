@@ -1,0 +1,39 @@
+p,
+button {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+input {
+  display: block;
+  background-color: rgb(233, 228, 228);
+  padding: 7px 14px;
+  width: 280px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.input-enter {
+  margin-bottom: 20px;
+}
+
+.btn-request {
+  color: #fff;
+  background-color: #000;
+  padding: 8px 16px;
+  border: none;
+  margin-right: 10px;
+}
+
+.btn-schedule {
+  color: #000;
+  background-color: rgb(228, 222, 222);
+  padding: 8px 16px;
+  border: none;
+}

@@ -1,0 +1,27 @@
+input {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.first-name {
+  width: 120px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.email-input {
+  display: block;
+  width: 268px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+button {
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgb(49, 49, 238);
+  padding: 10px 10px;
+  width: 290px;
+}
