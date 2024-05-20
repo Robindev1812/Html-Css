@@ -1,0 +1,41 @@
+p,
+button {
+  font-family: Arial;
+  margin-left: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.friends {
+  color: gray;
+  margin-bottom: 7px;
+}
+
+button {
+  color: #fff;
+  background-color: rgb(54, 54, 220);
+  border: none;
+  padding: 7px 20px;
+}
