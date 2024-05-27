@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Exercise 12e</title>
+
+  <style>
+    * {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      border: 1px solid;
+      margin-top: 10px;
+    }
+
+    .item-description {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 10px;
+    }
+
+    p,
+    span {
+      font-family: Arial;
+      font-size: 16px;
+    }
+
+    span {
+      color: #fff;
+      background-color: blue;
+      border-radius: 12px;
+      padding: 3px 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="item-description">
+      <p class="home">Home</p>
+      <span>14</span>
+    </div>
+    <div class="item-description">
+      <p class="notifications">notifications</p>
+      <span>3</span>
+    </div>
+    <div class="item-description">
+      <p class="messages">messages</p>
+      <span>5</span>
+    </div>
+  </div>
+</body>
+
+</html>

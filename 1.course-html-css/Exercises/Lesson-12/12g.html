@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Exercise 12g</title>
+
+  <style>
+    * {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 13px;
+      font-family: Arial;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin-top: 10px;
+    }
+
+    .item-description {
+      display: flex;
+      align-items: center;
+      padding: 5px 10px;
+      gap: 8px;
+    }
+
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 80px;
+    }
+
+    .cat-description {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .description {
+      color: gray;
+      width: 80px;
+      margin-top: 2px;
+    }
+
+    span {
+      color: #fff;
+      background-color: rgb(21, 21, 233);
+      border-radius: 4px;
+      padding: 3px 10px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="item-description">
+      <img src="./cat.jpg" alt="">
+      <div class="cat-description">
+        <div class="">
+          <p class="name">Oliver</p>
+          <p class="description">the cat Popular</p>
+        </div>
+        <span>Follow</span>
+      </div>
+    </div>
+
+    <div class="item-description">
+      <img src="./cat2.jpg" alt="">
+      <div class="cat-description">
+        <div class="">
+          <p class="name">Oliver</p>
+          <p class="description">the cat Popular</p>
+        </div>
+        <span>Follow</span>
+      </div>
+    </div>
+
+    <div class="item-description">
+      <img src="./dog.jpg" alt="">
+      <div class="cat-description">
+        <div class="">
+          <p class="name">Oliver</p>
+          <p class="description">the cat Popular</p>
+        </div>
+        <span>Follow</span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
